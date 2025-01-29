@@ -1,0 +1,1928 @@
+[
+    {
+        "id": "640f54f140f39174",
+        "type": "tab",
+        "label": "플로우 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ef8b8b6c45ef107b",
+        "type": "group",
+        "z": "640f54f140f39174",
+        "name": "INSERT BUTTON",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "58e314d8f2f5fd22",
+            "584fa75801799fa6",
+            "18750c749a37c7eb",
+            "b95cc67d43ed9b88",
+            "1ffd85a6b7b302ca",
+            "a7e74dac1aac347a",
+            "1e314c6b7b1861bf",
+            "f7fad8567944f2dd",
+            "a9fa1ec2d76edbfd"
+        ],
+        "x": 1322,
+        "y": 327,
+        "w": 1504,
+        "h": 386
+    },
+    {
+        "id": "cc594d6cce52ec0c",
+        "type": "group",
+        "z": "640f54f140f39174",
+        "name": "INSERT DEVICE",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d63cd23b15ef65da",
+            "14daa6d554ba4d44",
+            "ee9136bb96accfce",
+            "cad1d548a6f80e55",
+            "3befb79d08f999a5",
+            "e359367e056ac67b"
+        ],
+        "x": 1314,
+        "y": 19,
+        "w": 812,
+        "h": 122
+    },
+    {
+        "id": "3493bdec21de623a",
+        "type": "group",
+        "z": "640f54f140f39174",
+        "name": "Error Handler",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f92f9998ae48bd21",
+            "2cbd832467e3352c",
+            "af3416e2a884e267",
+            "2e49b7441c2ae09f"
+        ],
+        "x": 2114,
+        "y": 879,
+        "w": 592,
+        "h": 122
+    },
+    {
+        "id": "76cd2b9b8a51a3f4",
+        "type": "group",
+        "z": "640f54f140f39174",
+        "name": "리모컨 제어",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "dynamic_ui",
+            "button_click_handler",
+            "e280709fa5aee2df",
+            "cec29c414a2ca343",
+            "62707a39c8fbaffc"
+        ],
+        "x": 1314,
+        "y": 939,
+        "w": 552,
+        "h": 202
+    },
+    {
+        "id": "215451e251969280",
+        "type": "group",
+        "z": "640f54f140f39174",
+        "name": "DELETE DEVICE",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8fafebf89c1895df",
+            "855bb66773a0e6c0",
+            "744ff568923dc4e5",
+            "7c31e7e4446da057",
+            "fe2bd541f92df4e1"
+        ],
+        "x": 1314,
+        "y": 159,
+        "w": 672,
+        "h": 142
+    },
+    {
+        "id": "77390d3d96171657",
+        "type": "group",
+        "z": "640f54f140f39174",
+        "name": "DELETE BUTTON",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9d269582ce31b109",
+            "3f75812911766f3e",
+            "71574797e670e4bc",
+            "c39f7ac3271cde15",
+            "27d8f7051c04d112"
+        ],
+        "x": 1314,
+        "y": 739,
+        "w": 672,
+        "h": 182
+    },
+    {
+        "id": "a2f9728e4e9835ba",
+        "type": "group",
+        "z": "640f54f140f39174",
+        "name": "현재시각",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "62259955e52b5454",
+            "ce6910e8aa48a340",
+            "cde36b9e8699aa2b"
+        ],
+        "x": 314,
+        "y": 859,
+        "w": 592,
+        "h": 82
+    },
+    {
+        "id": "1f2cc9340fa737b5",
+        "type": "group",
+        "z": "640f54f140f39174",
+        "name": "현재날씨 API",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5c10b471e4cae697",
+            "103eceb5b3862b10",
+            "937cafad5d79f49c",
+            "c1f8ca29fa9cd15b",
+            "ac4eadef9bd72d23"
+        ],
+        "x": 314,
+        "y": 959,
+        "w": 612,
+        "h": 122
+    },
+    {
+        "id": "c67cae58f4561518",
+        "type": "group",
+        "z": "640f54f140f39174",
+        "name": "DB TEST",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1b383ec1a606302f",
+            "9c7ba82c80458154",
+            "4aeb413ab5e22631",
+            "4107a6736ab57f6f",
+            "c3fbdde4d4bf5f51",
+            "bdb8ebb3c9ffc0d3",
+            "485f6465272fe33f",
+            "e460f549ef6fabbf",
+            "c71aaf4f449c84f9",
+            "0b97949fdc8178e4"
+        ],
+        "x": 2114,
+        "y": 1039,
+        "w": 672,
+        "h": 402
+    },
+    {
+        "id": "f7fad8567944f2dd",
+        "type": "group",
+        "z": "640f54f140f39174",
+        "g": "ef8b8b6c45ef107b",
+        "name": "Form",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c4b81cc5d837832e",
+            "8cb80ab0e36f2caf",
+            "10a15917bbe72ef7"
+        ],
+        "x": 1348,
+        "y": 353,
+        "w": 744,
+        "h": 334
+    },
+    {
+        "id": "10a15917bbe72ef7",
+        "type": "group",
+        "z": "640f54f140f39174",
+        "g": "f7fad8567944f2dd",
+        "name": "Device Input field",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "bb8065e3e5c214c8",
+            "f77ff9866048a739",
+            "d0d411a1b036e676"
+        ],
+        "x": 1374,
+        "y": 579,
+        "w": 692,
+        "h": 82
+    },
+    {
+        "id": "c4b81cc5d837832e",
+        "type": "group",
+        "z": "640f54f140f39174",
+        "g": "f7fad8567944f2dd",
+        "name": "IR 수신 Input Field",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "76884125783b1e55",
+            "77850f42427c915d",
+            "2e64e5084a18fc47"
+        ],
+        "x": 1414,
+        "y": 379,
+        "w": 652,
+        "h": 82
+    },
+    {
+        "id": "8cb80ab0e36f2caf",
+        "type": "group",
+        "z": "640f54f140f39174",
+        "g": "f7fad8567944f2dd",
+        "name": "버튼 및 Form Field",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "078e98451aaccebd",
+            "fc8ae062b789e897"
+        ],
+        "x": 1714,
+        "y": 479,
+        "w": 352,
+        "h": 82
+    },
+    {
+        "id": "1b383ec1a606302f",
+        "type": "sqlite",
+        "z": "640f54f140f39174",
+        "g": "c67cae58f4561518",
+        "mydb": "23fa67a574f5a82c",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "리모컨DB",
+        "x": 2540,
+        "y": 1240,
+        "wires": [
+            [
+                "4107a6736ab57f6f"
+            ]
+        ]
+    },
+    {
+        "id": "9c7ba82c80458154",
+        "type": "inject",
+        "z": "640f54f140f39174",
+        "g": "c67cae58f4561518",
+        "name": "CREATE BUTTON TABLE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "CREATE TABLE button(id INTEGER PRIMARY KEY AUTOINCREMENT, device_id INTEGER NOT NULL, button_label TEXT, button_hex TEXT NOT NULL, FOREIGN KEY(device_id) REFERENCES device(id) ON DELETE CASCADE);",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2270,
+        "y": 1080,
+        "wires": [
+            [
+                "1b383ec1a606302f"
+            ]
+        ]
+    },
+    {
+        "id": "4aeb413ab5e22631",
+        "type": "inject",
+        "z": "640f54f140f39174",
+        "g": "c67cae58f4561518",
+        "name": "INSERT BUTTON",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INSERT INTO button(device_id, button_label, button_hex) values(1, \"Test Button1\", \"0x11111111\")",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2300,
+        "y": 1400,
+        "wires": [
+            [
+                "1b383ec1a606302f"
+            ]
+        ]
+    },
+    {
+        "id": "4107a6736ab57f6f",
+        "type": "debug",
+        "z": "640f54f140f39174",
+        "g": "c67cae58f4561518",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2680,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "c3fbdde4d4bf5f51",
+        "type": "inject",
+        "z": "640f54f140f39174",
+        "g": "c67cae58f4561518",
+        "name": "SELECT BUTTON",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "SELECT * from button AS b LEFT OUTER JOIN device AS d ON b.device_id = d.id",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2290,
+        "y": 1160,
+        "wires": [
+            [
+                "1b383ec1a606302f"
+            ]
+        ]
+    },
+    {
+        "id": "bdb8ebb3c9ffc0d3",
+        "type": "inject",
+        "z": "640f54f140f39174",
+        "g": "c67cae58f4561518",
+        "name": "CREATE DEVICE TABLE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "CREATE TABLE device(id INTEGER PRIMARY KEY AUTOINCREMENT, device_label TEXT UNIQUE NOT NULL);",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2270,
+        "y": 1220,
+        "wires": [
+            [
+                "1b383ec1a606302f"
+            ]
+        ]
+    },
+    {
+        "id": "485f6465272fe33f",
+        "type": "inject",
+        "z": "640f54f140f39174",
+        "g": "c67cae58f4561518",
+        "name": "INSERT DEVICE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INSERT INTO device(device_label) values(\"Test Device\")",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2300,
+        "y": 1360,
+        "wires": [
+            [
+                "1b383ec1a606302f"
+            ]
+        ]
+    },
+    {
+        "id": "e460f549ef6fabbf",
+        "type": "inject",
+        "z": "640f54f140f39174",
+        "g": "c67cae58f4561518",
+        "name": "SELECT DEVICE TABLE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "SELECT * from device",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2270,
+        "y": 1300,
+        "wires": [
+            [
+                "1b383ec1a606302f"
+            ]
+        ]
+    },
+    {
+        "id": "c71aaf4f449c84f9",
+        "type": "inject",
+        "z": "640f54f140f39174",
+        "g": "c67cae58f4561518",
+        "name": "DROP BUTTON TABLE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "DROP TABLE button",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2280,
+        "y": 1120,
+        "wires": [
+            [
+                "1b383ec1a606302f"
+            ]
+        ]
+    },
+    {
+        "id": "0b97949fdc8178e4",
+        "type": "inject",
+        "z": "640f54f140f39174",
+        "g": "c67cae58f4561518",
+        "name": "DROP DEVICE TABLE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "DROP TABLE device",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2280,
+        "y": 1260,
+        "wires": [
+            [
+                "1b383ec1a606302f"
+            ]
+        ]
+    },
+    {
+        "id": "58e314d8f2f5fd22",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "g": "ef8b8b6c45ef107b",
+        "name": "Set Param",
+        "func": "const devid = msg.payload.device_id\nconst hex = msg.payload.button_hex\nconst label = msg.payload.button_label\n\nreturn {\n    ...msg,\n    \"params\": {\n        $device_id: devid,\n        $label: label,\n        $hex: JSON.stringify(hex)\n    }\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2190,
+        "y": 540,
+        "wires": [
+            [
+                "584fa75801799fa6"
+            ]
+        ]
+    },
+    {
+        "id": "bb8065e3e5c214c8",
+        "type": "ui_dropdown",
+        "z": "640f54f140f39174",
+        "g": "10a15917bbe72ef7",
+        "name": "",
+        "label": "디바이스 이름",
+        "tooltip": "",
+        "place": "Select device",
+        "group": "ceec30bdf7f8ce88",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 1690,
+        "y": 620,
+        "wires": [
+            [
+                "f77ff9866048a739"
+            ]
+        ]
+    },
+    {
+        "id": "76884125783b1e55",
+        "type": "mqtt in",
+        "z": "640f54f140f39174",
+        "g": "c4b81cc5d837832e",
+        "name": "",
+        "topic": "topic/register_hex",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "9cb07f051a578e01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1530,
+        "y": 420,
+        "wires": [
+            [
+                "2e64e5084a18fc47"
+            ]
+        ]
+    },
+    {
+        "id": "f77ff9866048a739",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "g": "10a15917bbe72ef7",
+        "name": "SetFlow - newButtonDeviceId",
+        "func": "flow.set('newButtonDeviceId', msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1910,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "078e98451aaccebd",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "g": "8cb80ab0e36f2caf",
+        "name": "Gather Form Inputs",
+        "func": "let deviceID = flow.get('newButtonDeviceId');\nlet newButtonHex = flow.get('newButtonHex');\nlet buttonLabel = msg.payload.button_label\n\nif (deviceID === undefined) {\n    throw new Error(\"버튼을 추가할 디바이스를 선택하세요\")\n}\nif (newButtonHex === undefined) {\n    throw new Error(\"리모컨 HEX를 수신받으세요\")\n}\n\nmsg.payload.device_id = deviceID;\nmsg.payload.button_hex = newButtonHex\nmsg.payload.button_label = buttonLabel\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1950,
+        "y": 520,
+        "wires": [
+            [
+                "58e314d8f2f5fd22",
+                "a9fa1ec2d76edbfd"
+            ]
+        ]
+    },
+    {
+        "id": "fc8ae062b789e897",
+        "type": "ui_form",
+        "z": "640f54f140f39174",
+        "g": "8cb80ab0e36f2caf",
+        "name": "",
+        "label": "",
+        "group": "ceec30bdf7f8ce88",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "새로운 버튼 이름",
+                "value": "button_label",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "button_label": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic/new_button",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 1790,
+        "y": 520,
+        "wires": [
+            [
+                "078e98451aaccebd"
+            ]
+        ]
+    },
+    {
+        "id": "77850f42427c915d",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "g": "c4b81cc5d837832e",
+        "name": "SetFlow - newButtonHex",
+        "func": "flow.set('newButtonHex', msg.payload)\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1930,
+        "y": 420,
+        "wires": [
+            [
+                "a7e74dac1aac347a"
+            ]
+        ]
+    },
+    {
+        "id": "f92f9998ae48bd21",
+        "type": "catch",
+        "z": "640f54f140f39174",
+        "g": "3493bdec21de623a",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 2200,
+        "y": 920,
+        "wires": [
+            [
+                "af3416e2a884e267",
+                "2e49b7441c2ae09f"
+            ]
+        ]
+    },
+    {
+        "id": "2cbd832467e3352c",
+        "type": "ui_toast",
+        "z": "640f54f140f39174",
+        "g": "3493bdec21de623a",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "msg.error.message",
+        "name": "",
+        "x": 2590,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "af3416e2a884e267",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "g": "3493bdec21de623a",
+        "name": "Convert error.message",
+        "func": "return {...msg, payload: msg.error.message};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2380,
+        "y": 920,
+        "wires": [
+            [
+                "2cbd832467e3352c"
+            ]
+        ]
+    },
+    {
+        "id": "dynamic_ui",
+        "type": "ui_template",
+        "z": "640f54f140f39174",
+        "g": "76cd2b9b8a51a3f4",
+        "group": "3e8d87d6abf3ac48",
+        "name": "동적 UI 생성",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<md-card style=\"height: 30vh; padding: 0; margin: 0;\">\n<div ng-repeat=\"(deviceName, deviceData) in msg.devices\">\n  <md-card>\n    <md-card-title>\n      <md-card-title-text>\n        <span class=\"md-headline\">{{deviceName}}</span>\n      </md-card-title-text>\n    </md-card-title>\n    <md-card-content>\n      <div layout=\"row\" layout-wrap layout-align=\"center center\">\n        <div ng-repeat=\"button in deviceData.buttons\" style=\"width: 80px; margin: 2px;\">\n          <md-button class=\"md-raised md-primary\" style=\"width: 100%;\" ng-click=\"send({payload: button})\">\n            {{button.name}}\n          </md-button>\n        </div>\n      </div>\n    </md-card-content>\n  </md-card>\n</div>\n<md-card>\n\n<style>\n  md-card {\n    margin: 10px;\n  }\n  md-button {\n    margin: 5px;\n  }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1410,
+        "y": 1040,
+        "wires": [
+            [
+                "button_click_handler"
+            ]
+        ]
+    },
+    {
+        "id": "button_click_handler",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "g": "76cd2b9b8a51a3f4",
+        "name": "버튼 클릭 처리",
+        "func": "// let button = msg.payload;\n// 버튼 ID를 사용하여 필요한 작업 수행\nreturn {\n    ...msg,\n    payload: msg.payload[\"hex\"]\n};",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1580,
+        "y": 1040,
+        "wires": [
+            [
+                "e280709fa5aee2df",
+                "cec29c414a2ca343",
+                "62707a39c8fbaffc"
+            ]
+        ]
+    },
+    {
+        "id": "e280709fa5aee2df",
+        "type": "debug",
+        "z": "640f54f140f39174",
+        "g": "76cd2b9b8a51a3f4",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1760,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "584fa75801799fa6",
+        "type": "sqlite",
+        "z": "640f54f140f39174",
+        "g": "ef8b8b6c45ef107b",
+        "mydb": "23fa67a574f5a82c",
+        "sqlquery": "prepared",
+        "sql": "INSERT INTO button(device_id, button_label, button_hex) \nvalues($device_id, $label, $hex) \nRETURNING *;",
+        "name": "INSERT button",
+        "x": 2380,
+        "y": 540,
+        "wires": [
+            [
+                "18750c749a37c7eb",
+                "1e314c6b7b1861bf"
+            ]
+        ]
+    },
+    {
+        "id": "18750c749a37c7eb",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "g": "ef8b8b6c45ef107b",
+        "name": "retval",
+        "func": "return {\n    ...msg, \n    payload: `Successfully added Button ${msg.payload[0].button_label}`\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2550,
+        "y": 540,
+        "wires": [
+            [
+                "b95cc67d43ed9b88"
+            ]
+        ]
+    },
+    {
+        "id": "b95cc67d43ed9b88",
+        "type": "ui_toast",
+        "z": "640f54f140f39174",
+        "g": "ef8b8b6c45ef107b",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 2710,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "d63cd23b15ef65da",
+        "type": "ui_form",
+        "z": "640f54f140f39174",
+        "g": "cc594d6cce52ec0c",
+        "name": "",
+        "label": "",
+        "group": "00002b733878a86f",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "새로운 디바이스 이름",
+                "value": "device_label",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "device_label": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic/insert_device",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 1390,
+        "y": 100,
+        "wires": [
+            [
+                "14daa6d554ba4d44"
+            ]
+        ]
+    },
+    {
+        "id": "14daa6d554ba4d44",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "g": "cc594d6cce52ec0c",
+        "name": "Set Param",
+        "func": "const label = msg.payload.device_label\nreturn {\n    ...msg,\n    \"params\": {\n        $label: label\n    }\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1530,
+        "y": 100,
+        "wires": [
+            [
+                "ee9136bb96accfce"
+            ]
+        ]
+    },
+    {
+        "id": "ee9136bb96accfce",
+        "type": "sqlite",
+        "z": "640f54f140f39174",
+        "g": "cc594d6cce52ec0c",
+        "mydb": "23fa67a574f5a82c",
+        "sqlquery": "prepared",
+        "sql": "INSERT INTO device(device_label) \nVALUES($label)\nRETURNING *;",
+        "name": "INSERT device",
+        "x": 1700,
+        "y": 100,
+        "wires": [
+            [
+                "cad1d548a6f80e55",
+                "e359367e056ac67b"
+            ]
+        ]
+    },
+    {
+        "id": "cad1d548a6f80e55",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "g": "cc594d6cce52ec0c",
+        "name": "retval",
+        "func": "return { \n    ...msg, \n    payload: `Successfully added Device ${msg.payload[0].device_label}` \n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1850,
+        "y": 100,
+        "wires": [
+            [
+                "3befb79d08f999a5"
+            ]
+        ]
+    },
+    {
+        "id": "3befb79d08f999a5",
+        "type": "ui_toast",
+        "z": "640f54f140f39174",
+        "g": "cc594d6cce52ec0c",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 2010,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "ba137e03b34c7ede",
+        "type": "ui_ui_control",
+        "z": "640f54f140f39174",
+        "name": "",
+        "events": "all",
+        "x": 160,
+        "y": 540,
+        "wires": [
+            [
+                "ab0f0d7a3753c180"
+            ]
+        ]
+    },
+    {
+        "id": "fb1a6994c80bc1b2",
+        "type": "sqlite",
+        "z": "640f54f140f39174",
+        "mydb": "23fa67a574f5a82c",
+        "sqlquery": "fixed",
+        "sql": "SELECT * from device;",
+        "name": "SELECT device",
+        "x": 1040,
+        "y": 400,
+        "wires": [
+            [
+                "d0d411a1b036e676",
+                "8fafebf89c1895df"
+            ]
+        ]
+    },
+    {
+        "id": "d0d411a1b036e676",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "g": "10a15917bbe72ef7",
+        "name": "Convert to Dropdown",
+        "func": "let options = [];\nmsg.payload.forEach(row => {\n    let obj = {};\n    obj[row.device_label] = row.id;\n    options.push(obj);\n});\nmsg.options = options;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1500,
+        "y": 620,
+        "wires": [
+            [
+                "bb8065e3e5c214c8"
+            ]
+        ]
+    },
+    {
+        "id": "8fafebf89c1895df",
+        "type": "ui_template",
+        "z": "640f54f140f39174",
+        "g": "215451e251969280",
+        "group": "f1720af2562fc699",
+        "name": "동적 UI 생성",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<md-card style=\"min-height: 30vh;\">\n  <md-card-content>\n    <div layout=\"row\" layout-wrap layout-align=\"center center\">\n      <div ng-repeat=\"device in msg.payload\" style=\"width: 96px; margin: 2px;\">\n        <md-button class=\"md-raised md-primary\" style=\"width: 100%;\" ng-click=\"send({payload: device})\">\n          {{device.device_label}}\n        </md-button>\n      </div>\n    </div>\n  </md-card-content>\n</md-card>\n\n<style>\n  md-card {\n    margin: 10px;\n  }\n  md-button {\n    margin: 5px;\n  }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1410,
+        "y": 200,
+        "wires": [
+            [
+                "855bb66773a0e6c0"
+            ]
+        ]
+    },
+    {
+        "id": "855bb66773a0e6c0",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "g": "215451e251969280",
+        "name": "버튼 클릭 처리",
+        "func": "return {\n    ...msg,\n    \"params\": {\n        $device_id: msg.payload.id\n    }\n};",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1600,
+        "y": 200,
+        "wires": [
+            [
+                "744ff568923dc4e5",
+                "7c31e7e4446da057"
+            ]
+        ]
+    },
+    {
+        "id": "744ff568923dc4e5",
+        "type": "debug",
+        "z": "640f54f140f39174",
+        "g": "215451e251969280",
+        "name": "debug 18",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1780,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "7c31e7e4446da057",
+        "type": "sqlite",
+        "z": "640f54f140f39174",
+        "g": "215451e251969280",
+        "mydb": "23fa67a574f5a82c",
+        "sqlquery": "prepared",
+        "sql": "DELETE FROM device\nWHERE device.id=$device_id;",
+        "name": "DELETE device",
+        "x": 1800,
+        "y": 200,
+        "wires": [
+            [
+                "fe2bd541f92df4e1"
+            ]
+        ]
+    },
+    {
+        "id": "2e49b7441c2ae09f",
+        "type": "debug",
+        "z": "640f54f140f39174",
+        "g": "3493bdec21de623a",
+        "name": "debug 20",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2340,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "9d269582ce31b109",
+        "type": "ui_template",
+        "z": "640f54f140f39174",
+        "g": "77390d3d96171657",
+        "group": "8c1efa74fd4f26e3",
+        "name": "동적 UI 생성",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<md-card style=\"height: 30vh; padding: 0; margin: 0;\">\n<div style=\"overflow: visible;\" ng-repeat=\"(deviceName, deviceData) in msg.devices\">\n  <md-card>\n    <md-card-title>\n      <md-card-title-text>\n        <span class=\"md-headline\">{{deviceName}}</span>\n      </md-card-title-text>\n    </md-card-title>\n    <md-card-content>\n      <div layout=\"row\" layout-wrap layout-align=\"center center\">\n        <div ng-repeat=\"button in deviceData.buttons\" style=\"width: 80px; margin: 2px;\">\n          <md-button class=\"md-raised md-primary\" style=\"width: 100%;\" ng-click=\"send({payload: button})\">\n            {{button.name}}\n          </md-button>\n        </div>\n      </div>\n    </md-card-content>\n  </md-card>\n</div>\n</md-card>\n\n<style>\n  md-card {\n    margin: 10px;\n  }\n  md-button {\n    margin: 5px;\n  }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1410,
+        "y": 780,
+        "wires": [
+            [
+                "3f75812911766f3e"
+            ]
+        ]
+    },
+    {
+        "id": "3f75812911766f3e",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "g": "77390d3d96171657",
+        "name": "Set Param",
+        "func": "return {\n    ...msg,\n    topic: \"del\",\n    params: {\n        $bid: msg.payload.id\n    }\n};",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1590,
+        "y": 780,
+        "wires": [
+            [
+                "71574797e670e4bc",
+                "c39f7ac3271cde15"
+            ]
+        ]
+    },
+    {
+        "id": "71574797e670e4bc",
+        "type": "sqlite",
+        "z": "640f54f140f39174",
+        "g": "77390d3d96171657",
+        "mydb": "23fa67a574f5a82c",
+        "sqlquery": "prepared",
+        "sql": "DELETE FROM button WHERE id = $bid",
+        "name": "DELETE button",
+        "x": 1780,
+        "y": 780,
+        "wires": [
+            [
+                "c39f7ac3271cde15",
+                "27d8f7051c04d112"
+            ]
+        ]
+    },
+    {
+        "id": "e646342c9a9555bf",
+        "type": "sqlite",
+        "z": "640f54f140f39174",
+        "mydb": "23fa67a574f5a82c",
+        "sqlquery": "fixed",
+        "sql": "SELECT\n    b.id AS button_id,\n    b.button_label,\n    b.button_hex,\n    b.device_id,\n    d.id AS device_id,\n    d.device_label\nFROM\n    button AS b\nLEFT OUTER JOIN\n    device AS d ON b.device_id = d.id;",
+        "name": "SELECT JOINED button",
+        "x": 950,
+        "y": 680,
+        "wires": [
+            [
+                "9380154238610778",
+                "7c572cc4ecf441b8"
+            ]
+        ]
+    },
+    {
+        "id": "9380154238610778",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "name": "데이터 그룹화",
+        "func": "let data = msg.payload;\n\nlet devices = {};\n\ndata.forEach(row => {\n    let deviceName = row.device_label;\n    let button = {\n        id: row.button_id,\n        name: row.button_label,\n        hex: row.button_hex\n    };\n\n    if (!devices[deviceName]) {\n        devices[deviceName] = {\n            deviceInfo: {\n                id: row.device_id,\n                name: deviceName\n            },\n            buttons: []\n        };\n    }\n\n    devices[deviceName].buttons.push(button);\n});\n\nmsg.devices = devices;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 680,
+        "wires": [
+            [
+                "9d269582ce31b109",
+                "dynamic_ui",
+                "7c572cc4ecf441b8"
+            ]
+        ]
+    },
+    {
+        "id": "cec29c414a2ca343",
+        "type": "mqtt out",
+        "z": "640f54f140f39174",
+        "g": "76cd2b9b8a51a3f4",
+        "name": "",
+        "topic": "topic/control",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9cb07f051a578e01",
+        "x": 1770,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "1ffd85a6b7b302ca",
+        "type": "ui_text",
+        "z": "640f54f140f39174",
+        "g": "ef8b8b6c45ef107b",
+        "group": "ceec30bdf7f8ce88",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "수신된 RAW HEX",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2440,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "a7e74dac1aac347a",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "g": "ef8b8b6c45ef107b",
+        "name": "parse raw hex",
+        "func": "// const payload = flow.get('newButtonHex')\nif (!msg.payload[\"decodedRawData\"]) return msg;\nelse return {\n    ...msg,\n    payload: \"0x\" + msg.payload[\"decodedRawData\"].toString(16).toUpperCase()\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2200,
+        "y": 420,
+        "wires": [
+            [
+                "1ffd85a6b7b302ca"
+            ]
+        ]
+    },
+    {
+        "id": "ab0f0d7a3753c180",
+        "type": "sqlite",
+        "z": "640f54f140f39174",
+        "mydb": "23fa67a574f5a82c",
+        "sqlquery": "fixed",
+        "sql": "PRAGMA foreign_keys = ON;",
+        "name": "",
+        "x": 330,
+        "y": 540,
+        "wires": [
+            [
+                "09680984e5bbce0e"
+            ]
+        ]
+    },
+    {
+        "id": "c39f7ac3271cde15",
+        "type": "debug",
+        "z": "640f54f140f39174",
+        "g": "77390d3d96171657",
+        "name": "debug 21",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1780,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "62259955e52b5454",
+        "type": "ui_text",
+        "z": "640f54f140f39174",
+        "g": "a2f9728e4e9835ba",
+        "group": "8476307ad6ce26b5",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "현재시각",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "Tahoma,Geneva,sans-serif",
+        "fontSize": "32",
+        "color": "#000000",
+        "x": 820,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "ce6910e8aa48a340",
+        "type": "delay",
+        "z": "640f54f140f39174",
+        "g": "a2f9728e4e9835ba",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 400,
+        "y": 900,
+        "wires": [
+            [
+                "cde36b9e8699aa2b"
+            ]
+        ]
+    },
+    {
+        "id": "cde36b9e8699aa2b",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "g": "a2f9728e4e9835ba",
+        "name": "현재시각",
+        "func": "\nreturn {\n    payload: new Date().toLocaleString()\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 900,
+        "wires": [
+            [
+                "62259955e52b5454",
+                "ce6910e8aa48a340"
+            ]
+        ]
+    },
+    {
+        "id": "1b739e3adf0b4f92",
+        "type": "sqlite",
+        "z": "640f54f140f39174",
+        "mydb": "23fa67a574f5a82c",
+        "sqlquery": "fixed",
+        "sql": "CREATE TABLE IF NOT EXISTS button(\n    id INTEGER PRIMARY KEY AUTOINCREMENT, \n    device_id INTEGER NOT NULL, \n    button_label TEXT, \n    button_hex TEXT NOT NULL, \n    FOREIGN KEY(device_id) \n    REFERENCES device(id) \n    ON DELETE CASCADE\n);",
+        "name": "CREATE button",
+        "x": 680,
+        "y": 540,
+        "wires": [
+            [
+                "fb1a6994c80bc1b2",
+                "e646342c9a9555bf"
+            ]
+        ]
+    },
+    {
+        "id": "09680984e5bbce0e",
+        "type": "sqlite",
+        "z": "640f54f140f39174",
+        "mydb": "23fa67a574f5a82c",
+        "sqlquery": "fixed",
+        "sql": "CREATE TABLE IF NOT EXISTS device(\n    id INTEGER PRIMARY KEY AUTOINCREMENT, \n    device_label TEXT UNIQUE NOT NULL\n);",
+        "name": "CREATE device",
+        "x": 500,
+        "y": 540,
+        "wires": [
+            [
+                "1b739e3adf0b4f92"
+            ]
+        ]
+    },
+    {
+        "id": "2e64e5084a18fc47",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "g": "c4b81cc5d837832e",
+        "name": "parse JSON",
+        "func": "return {\n    ...msg,\n    payload: JSON.parse(msg.payload)\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1730,
+        "y": 420,
+        "wires": [
+            [
+                "77850f42427c915d"
+            ]
+        ]
+    },
+    {
+        "id": "5c10b471e4cae697",
+        "type": "http request",
+        "z": "640f54f140f39174",
+        "g": "1f2cc9340fa737b5",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://api.open-meteo.com/v1/forecast?latitude=37.5642135&longitude=127.0016985&current=temperature_2m,is_day,weather_code&daily=sunrise,sunset&timezone=auto&forecast_days=1",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 410,
+        "y": 1000,
+        "wires": [
+            [
+                "103eceb5b3862b10",
+                "ac4eadef9bd72d23"
+            ]
+        ]
+    },
+    {
+        "id": "103eceb5b3862b10",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "g": "1f2cc9340fa737b5",
+        "name": "function 17",
+        "func": "const wmo_code_table = {\n  0: {\n    day: {\n      description: \"Sunny\",\n      image: \"http://openweathermap.org/img/wn/01d@2x.png\"\n    },\n    night: {\n      description: \"Clear\",\n      image: \"http://openweathermap.org/img/wn/01n@2x.png\"\n    }\n  },\n  1: {\n    day: {\n      description: \"Mainly Sunny\",\n      image: \"http://openweathermap.org/img/wn/01d@2x.png\"\n    },\n    night: {\n      description: \"Mainly Clear\",\n      image: \"http://openweathermap.org/img/wn/01n@2x.png\"\n    }\n  },\n  2: {\n    day: {\n      description: \"Partly Cloudy\",\n      image: \"http://openweathermap.org/img/wn/02d@2x.png\"\n    },\n    night: {\n      description: \"Partly Cloudy\",\n      image: \"http://openweathermap.org/img/wn/02n@2x.png\"\n    }\n  },\n  3: {\n    day: {\n      description: \"Cloudy\",\n      image: \"http://openweathermap.org/img/wn/03d@2x.png\"\n    },\n    night: {\n      description: \"Cloudy\",\n      image: \"http://openweathermap.org/img/wn/03n@2x.png\"\n    }\n  },\n  45: {\n    day: {\n      description: \"Foggy\",\n      image: \"http://openweathermap.org/img/wn/50d@2x.png\"\n    },\n    night: {\n      description: \"Foggy\",\n      image: \"http://openweathermap.org/img/wn/50n@2x.png\"\n    }\n  },\n  48: {\n    day: {\n      description: \"Rime Fog\",\n      image: \"http://openweathermap.org/img/wn/50d@2x.png\"\n    },\n    night: {\n      description: \"Rime Fog\",\n      image: \"http://openweathermap.org/img/wn/50n@2x.png\"\n    }\n  },\n  51: {\n    day: {\n      description: \"Light Drizzle\",\n      image: \"http://openweathermap.org/img/wn/09d@2x.png\"\n    },\n    night: {\n      description: \"Light Drizzle\",\n      image: \"http://openweathermap.org/img/wn/09n@2x.png\"\n    }\n  },\n  53: {\n    day: {\n      description: \"Drizzle\",\n      image: \"http://openweathermap.org/img/wn/09d@2x.png\"\n    },\n    night: {\n      description: \"Drizzle\",\n      image: \"http://openweathermap.org/img/wn/09n@2x.png\"\n    }\n  },\n  55: {\n    day: {\n      description: \"Heavy Drizzle\",\n      image: \"http://openweathermap.org/img/wn/09d@2x.png\"\n    },\n    night: {\n      description: \"Heavy Drizzle\",\n      image: \"http://openweathermap.org/img/wn/09n@2x.png\"\n    }\n  },\n  56: {\n    day: {\n      description: \"Light Freezing Drizzle\",\n      image: \"http://openweathermap.org/img/wn/09d@2x.png\"\n    },\n    night: {\n      description: \"Light Freezing Drizzle\",\n      image: \"http://openweathermap.org/img/wn/09n@2x.png\"\n    }\n  },\n  57: {\n    day: {\n      description: \"Freezing Drizzle\",\n      image: \"http://openweathermap.org/img/wn/09d@2x.png\"\n    },\n    night: {\n      description: \"Freezing Drizzle\",\n      image: \"http://openweathermap.org/img/wn/09n@2x.png\"\n    }\n  },\n  61: {\n    day: {\n      description: \"Light Rain\",\n      image: \"http://openweathermap.org/img/wn/10d@2x.png\"\n    },\n    night: {\n      description: \"Light Rain\",\n      image: \"http://openweathermap.org/img/wn/10n@2x.png\"\n    }\n  },\n  63: {\n    day: {\n      description: \"Rain\",\n      image: \"http://openweathermap.org/img/wn/10d@2x.png\"\n    },\n    night: {\n      description: \"Rain\",\n      image: \"http://openweathermap.org/img/wn/10n@2x.png\"\n    }\n  },\n  65: {\n    day: {\n      description: \"Heavy Rain\",\n      image: \"http://openweathermap.org/img/wn/10d@2x.png\"\n    },\n    night: {\n      description: \"Heavy Rain\",\n      image: \"http://openweathermap.org/img/wn/10n@2x.png\"\n    }\n  },\n  66: {\n    day: {\n      description: \"Light Freezing Rain\",\n      image: \"http://openweathermap.org/img/wn/10d@2x.png\"\n    },\n    night: {\n      description: \"Light Freezing Rain\",\n      image: \"http://openweathermap.org/img/wn/10n@2x.png\"\n    }\n  },\n  67: {\n    day: {\n      description: \"Freezing Rain\",\n      image: \"http://openweathermap.org/img/wn/10d@2x.png\"\n    },\n    night: {\n      description: \"Freezing Rain\",\n      image: \"http://openweathermap.org/img/wn/10n@2x.png\"\n    }\n  },\n  71: {\n    day: {\n      description: \"Light Snow\",\n      image: \"http://openweathermap.org/img/wn/13d@2x.png\"\n    },\n    night: {\n      description: \"Light Snow\",\n      image: \"http://openweathermap.org/img/wn/13n@2x.png\"\n    }\n  },\n  73: {\n    day: {\n      description: \"Snow\",\n      image: \"http://openweathermap.org/img/wn/13d@2x.png\"\n    },\n    night: {\n      description: \"Snow\",\n      image: \"http://openweathermap.org/img/wn/13n@2x.png\"\n    }\n  },\n  75: {\n    day: {\n      description: \"Heavy Snow\",\n      image: \"http://openweathermap.org/img/wn/13d@2x.png\"\n    },\n    night: {\n      description: \"Heavy Snow\",\n      image: \"http://openweathermap.org/img/wn/13n@2x.png\"\n    }\n  },\n  77: {\n    day: {\n      description: \"Snow Grains\",\n      image: \"http://openweathermap.org/img/wn/13d@2x.png\"\n    },\n    night: {\n      description: \"Snow Grains\",\n      image: \"http://openweathermap.org/img/wn/13n@2x.png\"\n    }\n  },\n  80: {\n    day: {\n      description: \"Light Showers\",\n      image: \"http://openweathermap.org/img/wn/09d@2x.png\"\n    },\n    night: {\n      description: \"Light Showers\",\n      image: \"http://openweathermap.org/img/wn/09n@2x.png\"\n    }\n  },\n  81: {\n    day: {\n      description: \"Showers\",\n      image: \"http://openweathermap.org/img/wn/09d@2x.png\"\n    },\n    night: {\n      description: \"Showers\",\n      image: \"http://openweathermap.org/img/wn/09n@2x.png\"\n    }\n  },\n  82: {\n    day: {\n      description: \"Heavy Showers\",\n      image: \"http://openweathermap.org/img/wn/09d@2x.png\"\n    },\n    night: {\n      description: \"Heavy Showers\",\n      image: \"http://openweathermap.org/img/wn/09n@2x.png\"\n    }\n  },\n  85: {\n    day: {\n      description: \"Light Snow Showers\",\n      image: \"http://openweathermap.org/img/wn/13d@2x.png\"\n    },\n    night: {\n      description: \"Light Snow Showers\",\n      image: \"http://openweathermap.org/img/wn/13n@2x.png\"\n    }\n  },\n  86: {\n    day: {\n      description: \"Snow Showers\",\n      image: \"http://openweathermap.org/img/wn/13d@2x.png\"\n    },\n    night: {\n      description: \"Snow Showers\",\n      image: \"http://openweathermap.org/img/wn/13n@2x.png\"\n    }\n  },\n  95: {\n    day: {\n      description: \"Thunderstorm\",\n      image: \"http://openweathermap.org/img/wn/11d@2x.png\"\n    },\n    night: {\n      description: \"Thunderstorm\",\n      image: \"http://openweathermap.org/img/wn/11n@2x.png\"\n    }\n  },\n  96: {\n    day: {\n      description: \"Light Thunderstorms With Hail\",\n      image: \"http://openweathermap.org/img/wn/11d@2x.png\"\n    },\n    night: {\n      description: \"Light Thunderstorms With Hail\",\n      image: \"http://openweathermap.org/img/wn/11n@2x.png\"\n    }\n  },\n  99: {\n    day: {\n      description: \"Thunderstorm With Hail\",\n      image: \"http://openweathermap.org/img/wn/11d@2x.png\"\n    },\n    night: {\n      description: \"Thunderstorm With Hail\",\n      image: \"http://openweathermap.org/img/wn/11n@2x.png\"\n    }\n  }\n}\n\nconst wmo_code = msg.payload.current.weather_code\n\nif (msg.payload.current.is_day === 1) {\n  return {\n    payload: wmo_code_table[wmo_code][\"day\"]\n  }\n} else {\n  return {\n    payload: wmo_code_table[wmo_code][\"night\"]\n  }\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1000,
+        "wires": [
+            [
+                "937cafad5d79f49c",
+                "c1f8ca29fa9cd15b"
+            ]
+        ]
+    },
+    {
+        "id": "937cafad5d79f49c",
+        "type": "ui_template",
+        "z": "640f54f140f39174",
+        "g": "1f2cc9340fa737b5",
+        "group": "8476307ad6ce26b5",
+        "name": "",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<div style=\"height: 300px;text-align: center; font-family: Arial, sans-serif;\">\n    <img src=\"{{msg.payload.image}}\" alt=\"Image\" style=\"max-width: 100%; height: auto; margin-bottom: 10px;\">\n    <p style=\"font-size: 16px; color: #333;\">{{msg.payload.description}}</p>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 820,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c1f8ca29fa9cd15b",
+        "type": "debug",
+        "z": "640f54f140f39174",
+        "g": "1f2cc9340fa737b5",
+        "name": "debug 25",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "ac4eadef9bd72d23",
+        "type": "debug",
+        "z": "640f54f140f39174",
+        "g": "1f2cc9340fa737b5",
+        "name": "debug 24",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "1c92ef3576e4adef",
+        "type": "inject",
+        "z": "640f54f140f39174",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Lorem",
+        "payloadType": "str",
+        "x": 1010,
+        "y": 1760,
+        "wires": [
+            [
+                "70be1eae3d74ce08"
+            ]
+        ]
+    },
+    {
+        "id": "70be1eae3d74ce08",
+        "type": "mqtt out",
+        "z": "640f54f140f39174",
+        "name": "",
+        "topic": "topic/matrix",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9cb07f051a578e01",
+        "x": 1190,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "7c2d8dcad6078d1e",
+        "type": "ui_ui_control",
+        "z": "640f54f140f39174",
+        "name": "최초연결시",
+        "events": "connect",
+        "x": 160,
+        "y": 960,
+        "wires": [
+            [
+                "5c10b471e4cae697",
+                "ce6910e8aa48a340"
+            ]
+        ]
+    },
+    {
+        "id": "62707a39c8fbaffc",
+        "type": "link out",
+        "z": "640f54f140f39174",
+        "g": "76cd2b9b8a51a3f4",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "d24a3889dd0e839b"
+        ],
+        "x": 1715,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "d24a3889dd0e839b",
+        "type": "link in",
+        "z": "640f54f140f39174",
+        "name": "link in 1",
+        "links": [
+            "62707a39c8fbaffc",
+            "27d8f7051c04d112",
+            "fe2bd541f92df4e1",
+            "1e314c6b7b1861bf"
+        ],
+        "x": 735,
+        "y": 680,
+        "wires": [
+            [
+                "e646342c9a9555bf"
+            ]
+        ]
+    },
+    {
+        "id": "27d8f7051c04d112",
+        "type": "link out",
+        "z": "640f54f140f39174",
+        "g": "77390d3d96171657",
+        "name": "link out 2",
+        "mode": "link",
+        "links": [
+            "d24a3889dd0e839b"
+        ],
+        "x": 1945,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "e359367e056ac67b",
+        "type": "link out",
+        "z": "640f54f140f39174",
+        "g": "cc594d6cce52ec0c",
+        "name": "link out 3",
+        "mode": "link",
+        "links": [
+            "321dc6caaa254819"
+        ],
+        "x": 1815,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "321dc6caaa254819",
+        "type": "link in",
+        "z": "640f54f140f39174",
+        "name": "link in 2",
+        "links": [
+            "e359367e056ac67b",
+            "fe2bd541f92df4e1",
+            "1e314c6b7b1861bf"
+        ],
+        "x": 725,
+        "y": 400,
+        "wires": [
+            [
+                "fb1a6994c80bc1b2"
+            ]
+        ]
+    },
+    {
+        "id": "fe2bd541f92df4e1",
+        "type": "link out",
+        "z": "640f54f140f39174",
+        "g": "215451e251969280",
+        "name": "link out 4",
+        "mode": "link",
+        "links": [
+            "321dc6caaa254819",
+            "d24a3889dd0e839b"
+        ],
+        "x": 1945,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "1e314c6b7b1861bf",
+        "type": "link out",
+        "z": "640f54f140f39174",
+        "g": "ef8b8b6c45ef107b",
+        "name": "link out 5",
+        "mode": "link",
+        "links": [
+            "d24a3889dd0e839b",
+            "321dc6caaa254819"
+        ],
+        "x": 2515,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "a9fa1ec2d76edbfd",
+        "type": "function",
+        "z": "640f54f140f39174",
+        "g": "ef8b8b6c45ef107b",
+        "name": "Field 초기화",
+        "func": "flow.set('selectedDeviceValue', undefined)\nflow.set('newButtonHex', undefined)\n\nreturn {\n    ...msg,\n    payload: \"\"\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2190,
+        "y": 500,
+        "wires": [
+            [
+                "1ffd85a6b7b302ca"
+            ]
+        ]
+    },
+    {
+        "id": "7c572cc4ecf441b8",
+        "type": "debug",
+        "z": "640f54f140f39174",
+        "name": "debug 26",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "23fa67a574f5a82c",
+        "type": "sqlitedb",
+        "db": "/tmp/sqlite",
+        "mode": "RWC"
+    },
+    {
+        "id": "ceec30bdf7f8ce88",
+        "type": "ui_group",
+        "name": "새로운 버튼 등록",
+        "tab": "6d5c9867f1a3d845",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9cb07f051a578e01",
+        "type": "mqtt-broker",
+        "name": "emqx MQTT broker",
+        "broker": "broker.emqx.io",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "3e8d87d6abf3ac48",
+        "type": "ui_group",
+        "name": "제어",
+        "tab": "81431e3088bfcdac",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "00002b733878a86f",
+        "type": "ui_group",
+        "name": "새로운 디바이스 등록",
+        "tab": "6d5c9867f1a3d845",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f1720af2562fc699",
+        "type": "ui_group",
+        "name": "디바이스 삭제",
+        "tab": "6d5c9867f1a3d845",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8c1efa74fd4f26e3",
+        "type": "ui_group",
+        "name": "리모컨 버튼 삭제",
+        "tab": "6d5c9867f1a3d845",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8476307ad6ce26b5",
+        "type": "ui_group",
+        "name": "Status",
+        "tab": "81431e3088bfcdac",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6d5c9867f1a3d845",
+        "type": "ui_tab",
+        "name": "리모컨 설정",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "81431e3088bfcdac",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
